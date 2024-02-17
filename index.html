@@ -1,375 +1,402 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UBER_VS</title>
-    <link rel="shortcut icon" href="icons/favicon/favicon-32x32.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/a45e03d516.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.min.css">
-</head>
+    <title>ALX Group</title>
 
+</head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <ul class="navi">
-                    <li class="navi_item">
-                        <a href="#" class="navi_link">Главная</a>
-                    </li>
-                    <li class="navi_item"><a href="#car1" class="navi_link">Со своим автомобилем</a></li>
-                    <li class="navi_item"><a href="#car2" class="navi_link">На автомобиле компании</a></li>
-                    <li class="navi_item"><a href="#requre" class="navi_link">Требования</a>
-                    </li>
-                    <li class="navi_item"><a href="#" class="navi_link">Контакты</a></li>
-                    <li class="navi_item"><a href="#" class="navi_link">Оставить заявку</a></li>
-                </ul>
+    <div class="global_wrapper">
+        <header>
+            <nav class="nav">
+                <a class='logo' href="#">ALX Group</a>
+                <div class="menu">
+                    <a href="#" class="menu__item">Головна</a>
+                    <a href="#service" class="menu__item">Послуги</a>
+                    <a href="#practice" class="menu__item">Практика</a>
+                    <a href="#footer" class="menu__item">Контакти</a>
+                </div>
+                <div class="contacts">
+                    <a class="email" href="mailto:a.luzan18@gmail.com">alx.group@gmail.com</a>
+                    <a class="tel"href="tel:+380933262500">+38(093)326-25-00</a>
+                </div>
+            </nav>
+            <div class="header_opacity"></div>
+        </header>
+        <section class="main">
+            <div class="wrapper left">
+                <h1 class="title">Юридична компанія<br> <span>ALX Group</span></h1>
+                <p class="text">Наша цінність в прозорості та відкритості до Клієнтів і безкомпромісності до обставин, які стали вам на заваді.</p>
+                <p class="text">Вирішимо всі юридичні питання власників та менеджерів бізнесу в Україні. ALX Group приділяє всю увагу у вирішенні різноманітних питань та ситуацій в зручний для Вас спосіб.</p>
+                <p class="text">
+                    Найважливіший принцип нашої роботи – це відданість інтересам клієнтів. Із власного досвіду ми знаємо, наскільки цінною є якість юридичної підтримки для досягнення успіху в діловому середовищі України. Саме тому ми зосереджуємо нашу діяльність на наданні фахової правничої допомоги у найкоротші строки та на гнучких умовах, що забезпечує досягнення нашими клієнтами стратегічних цілей.
+
+                    Відданість клієнтам відображається як у нашому ставленні до людей, які працюють в AL Group, так і до суспільства в цілому. Оскільки право пов'язане з усіма аспектами життя, то тільки різностороння людина може надавати справді компетентні юридичні консультації.
+
+                    Саме тому ми розвиваємо корпоративну культуру взаємної допомоги та відкритості, завдяки якій нас добре знають на ринку. Наша команда складається з усебічно розвинених особистостей та відданих своїй справі професіоналів, що враховують найдрібніші деталі та потенційні ризики у вирішенні завдань клієнта. Процвітання наших клієнтів та бізнес-партнерів можливе лише у повноцінному суспільстві. Саме тому ми серйозно ставимось до своєї соціальної відповідальності, зокрема підтримуючи мистецтво та освіту.
+                </p>
+                <a class="tel" href="tel:+380933262500"><i class='bx bx-phone-call'></i>+38(093)326-25-00</a>
             </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="wrapper right">
+                <img src="img/header.png" alt="main_image" class="main_image">
             </div>
-        </nav>
-    </header>
-    <div class="subheader">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-sm-5 col-md-4 offset-md-1">
-                    <a href="#" class="subheader_uber_link">
-                        <div class="subheader_uber_text"><img src="icons/uber1.png" alt="uber_icon"
-                                class="subheader_uber_icon">&nbsp&nbsp&nbspUBER.78.UKRAINE
-                        </div>
-                    </a>
-                    <div class="subheader_text">
-                        Официальный партнер Uber в Украине
+        </section>
+        
+        <section id="service" class="service">
+            <h2 class="title"><i class='bx bx-archive'></i>
+                Послуги</h2>
+            <div class="wrapper">
+
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bx-line-chart'></i>Інтелектуальна власність</h5>
+                            <p class="text">Інтелектуальна власність - важливий актив для багатьох компаній та індивідуальних творців. Завдяки їй, можна не витративши багато часу та значних інвестицій ззовні, створити унікальний продукт, який дозволить отримати більший прибуток. Це означає, що існує великий ризик незаконних дій зі сторони нечесних конкурентів. В сучасну епоху повсюдної цифровізації захист прав інтелектуальної власності дуже необхідна і надзвичайно актуальна послуга, яка вимагає ретельного знання законодавства та відповідних процедур.</p>
                     </div>
                 </div>
-                <div class="col-6 col-sm-4 offset-sm-2 col-md-3 offset-md-1">
-                    <div class="subheader_call">
-                        Звоните нам ежедневно
-                        <a href="tel:+380505770988" class="subheader_tel">(050) 577-09-88</a>
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bx-message-rounded-detail'></i>Консультування бізнесу та приватних осіб</h5>
+                        <p class="text">Допомога у створенні, супроводі та захисті бізнесу — один із перших напрямів діяльності Компанії. Ми роками відпрацьовували вміння забезпечувати спокій наших Клієнтів.
+
+                            У нас є компетенції для захисту від рейдерських атак, незаконного переоформлення та інших форм тиску на власника і співробітників з боку конкурентів чи правоохоронних органів.</p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="subheader_btn">заказать звонок</div>
+    
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bxs-file-doc'></i>Складання юридичний документів</h5>
+                        <p class="text">Будь-який документ повинен бути оформлений юридично грамотно і містити правильні відомості про всі події, які висвітлює автор, його що склав. Документ необхідно складати на спеціальних бланках або стандартних аркушах паперу. У разі виправлення в документах робиться спеціальне застереження "Виправленому вірити", який завіряється підписом і печаткою. При перекреслення необхідно, щоб виправлений текст був видний.</p>
+                    </div>
+                </div>
+                
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bx-laptop'></i>Проведення реєстраційних дій</h5>
+                        <p class="text">Після ведення воєнного стану українське законодавство зазнає певних змін, адаптуючись до нових вимог та потреб. Зокрема, відбулися деякі корективи щодо запровадження підприємницької та громадської діяльностей в Україні. Окремої уваги заслуговує дотримання державою курсу щодо впровадження електронної системи надання послуг та протидії рейдерству, так як під час бойових дій вірогідність появи такого явища зростає.</p>
+                    </div>
+                </div>
+                
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bx-buildings' ></i>Судовий захист інтересів</h5>
+                        <p class="text">Права та охоронювані законом інтереси особи за відсутності будь-яких механізмів захисту залишатимуться декларативними. Тож у разі незаконного посягання на майнові та особисті немайнові  права та законні інтереси особи, останні повинні підлягати захисту, що, у свою чергу,  вимагає від держави забезпечення належного правового регулювання з тим, щоб визначити засоби реалізації таких прав та інтересів, а також закріпити ефективні способи їх захисту.</p>
+                    </div>
+                </div>
+                <div class="link_item">
+                    <div class="service_item">
+                        <h5 class="title"><i class='bx bx-star'></i>Індивідуальний підхід до клієнта</h5>
+                        <p class="text">Одним із пріоритетних принципів роботи нашої команди є індивідуальний підхід до кожного клієнта! Говорячи про індивідуальний підхід важливо відзначити, що ми будуємо свою співпрацю з урахуванням усіх побажань клієнта. Ми вивчаємо особливості та нюанси кожного питання, кожної справи, кожної дії. Ми не працюємо «за шаблоном», а робимо свій продукт унікальним, оскільки кожна справа для нас – це нові виклики, нові вершини, нові перемоги.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="practice" class="practice">
+            <h2 class="title"><i class='bx bxs-briefcase'></i>Практика</h2>
+            
+            <div class="category_wrapper">
+                    <div class="category_item category_item_active">Супровід Бізнесу</div>
+
+                    <div class="category_item">Корпоративне право</div>
+
+                    <div class="category_item">Цивільне право</div>
+
+                    <div class="category_item">Договірне право</div>
+                    
+                    <div class="category_item">Захист інтелектульної властісті</div>
+                    
+                    <div class="category_item">Господарське право</div>
+
+                    <div class="category_item">Виконавчі провадження</div>
+
+                    <div class="category_item">Податкові спори</div>
+
+                    <div class="category_item">Судовий процесс під ключ</div>
+
+            </div>
+    
+            <div class="practice_wrapper practice_wrapper_active">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Супровід Бізнесу</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice1.jpeg" alt="law1" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Постійне консультування з усіх правових питань</li>
+                        <li class="work_item">Комплексний юридичний аудит всіх процесів підприємства</li>
+                        <li class="work_item">Вивід всіх процесів підприємства в законні рамки</li>
+                        <li class="work_item">Захист активів підприємства</li>
+                        <li class="work_item">Юридичний моніторинг роботи з контрагентами</li>
+                        <li class="work_item">Супровід підприємства у відносинах з державними органами</li>
+                        <li class="work_item">Захист посадових осіб підприємства від претензій правоохоронних органів</li>
+                        <li class="work_item">Супровід підприємства в відносинах з державними органами</li>
+                        <li class="work_item">Складання скарг, клопотань та інших документів</li>
+                        <li class="work_item">Судовий захист підприємства</li>
+                        
+                    </ul>
                 </div>
             </div>
-        </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Корпоративне право</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice10.jpeg" alt="law2" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Підготовка проектів договорів та корпоративної документації</li>
+                        <li class="work_item">Правове забезпечення діяльності підприємств різної сфери діяльності</li>
+                        <li class="work_item">Юридичне супроводження купівлі, продажу компаній або їх часток, зміни учасників (M&A)</li>
+                        <li class="work_item">Розробка статутів, договорів, внутрішніх положень та політик</li>
+                        <li class="work_item">Розробка оптимальної корпоративної структури для управління бізнесом</li>
+                        <li class="work_item">Аналіз всіх аспектів оподаткування, валютного контролю та антимонопольного регулювання</li>
+                        <li class="work_item">Проведення експертизи проектів договорів, угод, тощо</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Цивільне Право</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice30.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Визнання договору недійсним, визнання договору укладеним, розірвання договору</li>
+                        <li class="work_item">Поділ спільної власності, поділ часткової власності в натурі, встановлення порядку користування майном</li>
+                        <li class="work_item">Кредитні спори</li>
+                        <li class="work_item">Визнання і припинення права власності</li>
+                        <li class="work_item">Стягнення заборгованості</li>
+                        <li class="work_item">Спадкування</li>
+                        <li class="work_item">Відшкодування матеріальної і моральної шкоди</li>
+                        <li class="work_item">Встановлення фактів, що мають юридичне значення</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Договірне Право</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice28.jpeg" alt="law4" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Консультації з питань договірної та претензійної роботи на підприємстві</li>
+                        <li class="work_item">Розробка і складання базових договорів</li>
+                        <li class="work_item">Аналіз договорів контрагентів</li>
+                        <li class="work_item">Проведення переговорів з контрагентами</li>
+                        <li class="work_item">Складання претензій та відгуків на претензії</li>
+                        <li class="work_item">Складання договорів купівлі-продажу, поставки, підряду та багато інших</li>
+                        <li class="work_item">Проведення експертизи проектів договорів; угод, інших матеріалів</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Захист інтелектуальної власності</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice32.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Консультування з питань інтелектуальної власності та інформації</li>
+                        <li class="work_item">Реєстрація знаків для товарів і послуг, фірмового найменування, промислових зразків, патентів і винаходів</li>
+                        <li class="work_item">Захист в суперечках з інтелектуальної власності</li>
+                        <li class="work_item">Супровід угод в сфері інтелектуальної власності</li>
+                        <li class="work_item">Супровід дотримання законодавства в сфері персональних даних</li>
+                        <li class="work_item">Розробка і впровадження юридичних механізмів захисту комерційної таємниці</li>
+                        <li class="work_item">Судовий захист у спорах з комерційної таємниці</li>
+                        <li class="work_item">Інтелектуальна властість в IT сфері</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Господарське Право</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice29.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Юридичні консультації з господарського спору, огляд документів, вивчення ситуації</li>
+                        <li class="work_item">Досудове врегулювання спорів, організація претензійної роботи</li>
+                        <li class="work_item"> Розірвання господарських договорів, визнання господарських угод недійсними</li>
+                        <li class="work_item">Спори між суб’єктами підприємництва</li>
+                        <li class="work_item">Отримання дозволів, погоджень, рішень органів влади чи управління</li>
+                        <li class="work_item">Супровід підприємства у відносинах з державними органами</li>
+                        <li class="work_item">Представництво при ліцензуванні господарської діяльності</li>
+                        <li class="work_item">Представлення інтересів у господарських судах</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Виконавчі провадження</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice8.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Відповіді на постанови державного/приватного виконавця в рамках виконавчого провадження</li>
+                        <li class="work_item">Стягнення на кошти боржника</li>
+                        <li class="work_item">Арешт майна для забезпечення виконання рішення суду</li>
+                        <li class="work_item">Стягнення на майно боржника<</li>
+                        <li class="work_item">Вилучення майна боржника на користь кредитора;</li>
+                        <li class="work_item">Представництво інтересів клієна з органами Виконавчої служби</li>
+                        <li class="work_item">Виконання рішень суду (виконавчих листів, наказу суду, ухвали, рішень суду, тощо)</li>
+                        <li class="work_item">Консультації з питань з органами Виконавчої служби</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Податкові спори</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice23.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Консультації з податкових питань</li>
+                        <li class="work_item">Оптимізація корпоративної структури і формату бізнесу з метою ефективного оподаткування</li>
+                        <li class="work_item">Супровід всіх питань по ПДВ і акцизу</li>
+                        <li class="work_item">Надання рекомендації при виборі бухгалтера</li>
+                        <li class="work_item">Робота із запитами податкових органів</li>
+                        <li class="work_item">Оскарження підстав і результатів податкових перевірок</li>
+                        <li class="work_item">Супровід повернення податків з бюджету</li>
+                        <li class="work_item">Досудове та судове врегулювання спорів</li>
+                        <li class="work_item">Розробка стратегії захисту</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="practice_wrapper">
+                <div class="item_left">
+                    <div class="practice_top">
+                        <h3 class="practice_title">Представництво інтересів в суді</h3>
+                        <p class="firm">
+                            ALX Group
+                        </p>
+                    </div>
+                    <img src="img/practice2.jpeg" alt="law3" class="practice_image">
+                </div>
+                <div class="item item_right">
+                    <h3 class="practice_work_title">
+                        Види юридичних послуг
+                    </h3>
+                    <ul class="work_list">
+                        <li class="work_item">Консультування щодо судових спорів</li>
+                        <li class="work_item">Попереднє вивчення справи та надання висновку про судову перспективу</li>
+                        <li class="work_item">Збір та підготовка доказової бази (направлення адвокатських запитів, збір документів, підготовка клопотань, заяв, тощо</li>
+                        <li class="work_item">Підготовка позовної заяви</li>
+                        <li class="work_item">Представництво і юридична допомога в судах будь-якої інстанції</li>
+                        <li class="work_item">Підготовка клопотань, заяв, додаткових пояснень, ознайомлення з матеріалами справи тощо</li>
+                        <li class="work_item">Оскарження рішення суду в апеляційному та касаційному порядку</li>
+                        <li class="work_item">Супровід примусового виконання судового рішення</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>        
+
+    <footer id="footer"class="footer">
+
+            <div class="footer_wrapper">
+                <div class="footer_item footer_left">
+                    <div class="title1">Захисти власні інтереси </div>
+                    <div class="title2">ALX Group </div>
+                </div>
+
+                <div class="footer_item footer_right">
+                    <div class="navi_wrapper">
+                        <a href="https://maps.app.goo.gl/LDr7AmiDK65BFkVCA" class="footer_navi"><i class='bx bx-map' ></i> м. Харків, вул. Свободи 32, офіс</a>
+                    </div>
+                    <div class="social_wrapper">
+                        <div><i class='bx bx-train'></i>Університет, Бєкєтова</div>
+                    </div>        
+                    <div class="copyright">Copyright <span><i class='bx bx-copyright'></i></span> 2024 <span class="cpr">ALX Group</span>, All Right Reserved</div>
+                </div>
+            </div>
+
+    </footer>
     </div>
 
-    <section class="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-10 offset-md-1">
-
-                    <h1>КОМПАНИЯ UBER PARTNERS!</h1>
-                    <h2>ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
-                    <div class="main_text">
-                        Компания UBER динамически развивающаяся. Компания на рынке занимает лидирующее место среди
-                        таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у
-                        себя в
-                        личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет
-                        бонусы за
-                        пиковое время. <br><br>
-                        Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Харькове.
-                        Водители у нас
-                        зарабатывают от 80000- 120000 в месяц.
-                    </div>
-                    <div class="main_btn">ОТПРАВИТЬ ЗАЯВКУ!</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="reasons">
-        <div class="container">
-            <div class="adv">преимущества</div>
-            <h2 class="adv2">8 причин начать работать с нами</h2>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-6">
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon1.png" alt="icon1" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Никаких наличных, оплата происходит
-                                автоматически</div>
-                            <div class="text">Стоимость поездки оплачивается пассажиром с привязанной банковской карты,
-                                т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для
-                                водителя, Вам не нужно искать мелкие деньги для размена.</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon2.png" alt="icon2" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Высокий доход с гарантированными
-                                выплатами</div>
-                            <div class="text">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам
-                                не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать
-                                бухгалтерские услуги и ведение банковского счета.</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon3.png" alt="icon3" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Комфортное, прозрачное и простое
-                                подключение</div>
-                            <div class="text">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к
-                                нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для
-                                подключения, через 1-2 дня Вы можете начинать работать!</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon4.png" alt="icon4" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Круглосуточная поддержка</div>
-                            <div class="text">В Uber действует круглосуточная поддержка водителей по электронной
-                                почте.
-                                Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-6">
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon5.png" alt="icon5" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Комиссия 8% + БОНУСЫ</div>
-                            <div class="text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку,
-                                некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители
-                                зарабатывают больше!</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon6.png" alt="icon6" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Работа в удобное время, никаких
-                                графиков</div>
-                            <div class="text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите
-                                закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в
-                                выходные или праздничные дни! </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon7.png" alt="icon7" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Всегда большое количество заказов</div>
-                            <div class="text">Приложение показывает, где на данный момент больше всего заказов и где
-                                действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры
-                                всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item_circle">
-                            <img src="icons/icon8.png" alt="icon8" class="item_icon">
-                        </div>
-                        <div class="reasons_text">
-                            <div class="title">Без шашечек и наклеек</div>
-                            <div class="text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать
-                                его наклейками.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mob">
-        <div class="container">
-            <div class="adv">Возможности</div>
-            <h2 class="adv2">мобильное приложение убер</h2>
-            <h3 class="adv3">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
-            </h3>
-            <div class="row advantages">
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers.png" alt="" class="mob_img">
-                        <div class="mob_text">оформление заказа одним касанием</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers (1).png" alt="" class="mob_img">
-                        <div class="mob_text">надежная подача</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers (2).png" alt="" class="mob_img">
-                        <div class="mob_text">прозрачные цены</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers (3).png" alt="" class="mob_img">
-                        <div class="mob_text">безналичная оплата</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers (4).png" alt="" class="mob_img">
-                        <div class="mob_text">обратная связь</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4">
-                    <div class="mob_item">
-                        <img src="icons/2-layers (5).png" alt="" class="mob_img">
-                        <div class="mob_text">разделить
-                            стоимость поездки</div>
-                        <div class="mob_plus_icon"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="car">
-        <div class="container">
-            <div class="adv">Возможности</div>
-            <h2 class="adv2">Выбор - отличная штука!</h2>
-            <h3 class="adv3">Сделайте заказ, совершите поездку и оплатите ее
-            </h3>
-            <img src="icons/car_img.png" alt="car" class="car_img">
-            <div class="car_text">Машины на каждый день <br>
-                Лучше, быстрее и дешевле, чем такси</div>
-        </div>
-    </section>
-
-    <section class="req" id="requre">
-        <div class="container">
-            <div class="adv">Возможности</div>
-            <h2 class="adv2">условия и требования</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="req_item">
-                        <div class="req_title" id="car1">УСЛОВИЯ: со своим авто:</div>
-                        <ul class="req_list">
-                            <li>Подключаем к системе UBER под 10%.</li>
-                            <li>Ни каких взносов 0%!</li>
-                            <li>Можем подключать удаленно без приезда в офис</li>
-                            <li>ИП не требуется</li>
-                            <li>Заказы распределяются без учета рейтинга ближайшим водителям</li>
-                            <li>Работа только по безналичному расчету</li>
-                            <li>Деньги перечисляем на карту водителю или наличными в офисе</li>
-                        </ul>
-                        <div class="req_bouns">В день заработок составляет 7000-12000 UAH + бонус 3000 UAH рублей</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="req_item">
-                        <div class="req_title" id="car2">УСЛОВИЯ: на авто компании:</div>
-                        <ul class="req_list">
-                            <li>Предоставляем авто без залога</li>
-                            <li>Без ежедневных выплат по аренде</li>
-                            <li>Среда пятница и суббота работа на компанию остальные дни вы работаете на себя
-                            </li>
-                        </ul>
-                        <div class="req_bouns"></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="req_item warning">
-                        <div class="req_title">ТРЕБОВАНИЕ:</div>
-                        <ul class="req_list">
-                            <li>Наличие автомобиля без рекламы</li>
-                            <li>Автомобиль не должен быть желтый и не с желтыми номерами</li>
-                            <li>Машина не старше 3 лет</li>
-                            <li>Стаж вождения не менее 3 лет</li>
-                            <li>Дивайс на системе андроид 4.0и выше(самсунг)</li>
-                        </ul>
-                        <div class="req_bouns"></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="req_item warning">
-                        <div class="req_title">ДОКУМЕНТЫ:</div>
-                        <ul class="req_list">
-                            <li>Права 2 стороны</li>
-                            <li>Паспорт лицевая сторона</li>
-                            <li>СтС</li>
-                            <li>Лицензия( если есть)</li>
-                            <li>Номер телефона</li>
-                            <li>Номер карты для перечисления денег(указать в письме)!</li>
-                        </ul>
-                        <div class="req_bouns"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="map">
-        <div class="container">
-            <div class="adv">города</div>
-            <h2 class="adv2">По всему миру</h2>
-            <h3 class="adv3">Мы в вашем городе и по всему миру</h3>
-            <a href="#" class="cities">посмотреть все города</a>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer_wrapper">
-            <div class="footer_item">
-                <div class="social">
-                    <a target="_blank" href="https://www.facebook.com/" class="social_icon fb">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a target="_blank" href="https://twitter.com/home" class="social_icon tw"></a>
-                    <a href="#" class="social_icon in"></a>
-                    <a href="#" class="social_icon insta"></a>
-                </div>
-            </div>
-
-            <div class="footer_item">
-                <div class="navigation">
-                    <div class="line"></div>
-                    <div class="buttons">
-                        <a href="#" class="btn_nav1">на главную</a>
-                        <a href="#" class="btn_nav1">города</a>
-                        <a href="#5" class="btn_nav1">для водителей</a>
-                    </div>
-                    <div class="buttons2">
-                        <a href="#" class="btn_nav2">центр поддержки</a>
-                        <a href="#" class="btn_nav2">вакансии</a>
-                        <a href="#" class="btn_nav2">разработчики</a>
-                        <a href="#" class="btn_nav2">блог</a>
-                        <a href="#" class="btn_nav2">о нас</a>
-                    </div>
-                    <h4 class="language">УКРАИНСКИЙ</h4>
-                </div>
-            </div>
-
-            <div class="footer_item">
-                <div class=" app_store">
-                    <a target="_blank" href="https://www.apple.com/" class="apps"></a>
-                </div>
-            </div>
-
-        </div>
-        <!-- </footer> -->
-        <div class="footer_underline"></div>
-        <script src="js/script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
