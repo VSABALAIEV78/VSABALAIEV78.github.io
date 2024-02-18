@@ -61,16 +61,23 @@ header nav.nav
                 text-shadow: 2px 2px 15px #6749c0
         &__item:not(:last-child)
             padding-right: 15px
+        a
+            font-size: 18px    
+
+
     a
         text-decoration: none
-        color: #000 
+        color: #000
+        font-weight: 500
 
     .contacts
         display: flex
         .email
+            display: flex
             margin: 0 10px
-            padding: 3px 10px
-            height: 25px
+            padding: 0 10px
+            height: 30px
+            align-items: end
             color: #fff
             background-color: #000
             border-radius: 4px
@@ -82,24 +89,35 @@ header nav.nav
                 transition: 0.4s ease
                 box-shadow: 2px 1px 5px 1px #000000
                 background-color: #4e3598
-
+        //     &:hover
+        //         transition: 0.4s ease
+        //         box-shadow: 2px 1px 5px 1px #00000
         .tel
             display: flex
             align-items: center
             margin: 0 10px
             padding: 3px 10px
             margin-right: 20px
-            height: 25px
-            color: #ffffff
+            height: 30px
             background-color: #4e3598
             cursor: pointer
-            font-size: 16px
             border-radius: 5px
             box-shadow: 1px 1px 5px #000000c1
+            background-image: linear-gradient(-225deg,#1d0090 0%, #008fc7 50%,#1d0090 65%, #6a38e0 100%)
+            background-size: auto auto
+            background-clip: border-box
+            background-size: 200% auto
+            color: #fff
+            animation: text-clip 3s ease infinite
+            font-size: 15px
+            @keyframes text-clip
+                from 
+                    background-position: right  
+                to 
+                    background-position: left  
             &:hover
                 transition: 0.4s ease
-                box-shadow: 2px 1px 5px 1px #000000
-                background-color: #00890b
+                box-shadow: 2px 1px 5px 1px #6a38e0
 
             // information about company
 section.main
@@ -140,9 +158,22 @@ section.main
         font-size: 15px
         letter-spacing: 0.06em
         font-weight: 400
+        background-image: linear-gradient(-225deg,#4e3598 0%, #008fc7 50%,#1d0090 75%, #4e3598 100%)
+        background-size: auto auto
+        background-clip: border-box
+        background-size: 200% auto
+        color: #fff
+        animation: text-clip 3s ease infinite
+        font-size: 15px
+        @keyframes text-clip
+            from 
+                background-position: right  
+            to 
+                background-position: left  
         &:hover
-            transition: 0.5s ease
-            background-color: #00890b
+            transition: 0.4s ease
+            box-shadow: 2px 1px 5px 1px #6a38e0
+
         i
             position: absolute
             top: auto
@@ -271,7 +302,7 @@ section.practice
                 color: #fff
                 padding: 5px 10px
         .category_item_active
-            background-color: #4e3598      
+            background-color: #4e3598   
             color: #fff
 
 
@@ -395,6 +426,21 @@ footer.footer
                         font-size: 25px
                         color: #ff0000  
                         padding-right: 10px
+                .animate-charcter
+                    background-image: linear-gradient(-225deg,#19b6ff 0%,#ad61ff 29%,#ff3a13 50%,#ff6f00 80%, #19b6ff 100%)
+                    background-size: auto auto
+                    background-clip: border-box
+                    background-size: 200% auto
+                    color: #fff
+                    background-clip: text
+                    text-fill-color: transparent
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+                    animation: textclip 4s linear infinite
+                    font-size: 18px
+                    @keyframes textclip 
+                        to 
+                            background-position: 200%
             .social_wrapper
                 display: flex
                 justify-content: end
